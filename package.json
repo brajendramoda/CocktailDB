@@ -13,8 +13,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "build-win": "set CI=false&&react-scripts=true build=true",
+    "build": "CI= react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
